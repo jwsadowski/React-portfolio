@@ -1,7 +1,10 @@
 import React from "react";
 
+const Projects = [{'Project 1', 'Project 2', 'Project 3',}]
+
 function Projects() {
     return (
+        <>
         <div>
             <h1>PROJECTS</h1>
             <ul>
@@ -40,7 +43,7 @@ function Projects() {
            <li><a href = "https://calm-brook-66511.herokuapp.com/"></a></li>
            </ul>
         </div>
-
+        </>
     );
 }
 
