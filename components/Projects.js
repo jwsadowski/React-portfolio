@@ -2,9 +2,9 @@ import React from "react";
 
 function Projects(props) {
     return (
-        <ul className="list-group">
+        <ul className="project-group">
             {props.Projects.map(item => (
-                <li className="list-group-item" key={item.id}>
+                <li className="project-group-item" key={item.id}>
                     {item.name}
                 </li>
             ))}
